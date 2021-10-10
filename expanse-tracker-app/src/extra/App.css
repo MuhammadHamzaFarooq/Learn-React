@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: lavender;
+}
+
+/* Utility Classes  */
+.inline-block{
+  display: inline-block;
+}
+
+.balance-container{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.income{
+  /* border: 2px solid rgb(238, 38, 38); */
+  width: 150px;
+  height: 90px;
+  background-color: white;
+  box-shadow: 10px 15px 10px 2px gray;  
+  padding: 22px 45px ;
+}
+
+.expanse{
+  /* border: 2px solid rgb(0, 0, 0); */
+  width: 150px;
+  height: 90px;
+  background-color: white;
+  box-shadow: 10px 15px 10px 2px gray;
+  padding: 22px 45px 
+}
+
+
+.transaction-history-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+}
